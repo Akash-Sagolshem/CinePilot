@@ -7,7 +7,7 @@ app = Flask(__name__, template_folder='./')
 
 @app.route('/')
 def main():
-    return render_template('index.html')
+    return render_template('templates/index.html')
 
 @app.route('/get')
 def get_from_api():
